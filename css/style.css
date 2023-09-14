@@ -457,6 +457,9 @@ footer > p a:hover {
     right: 50px;
     transform: translateY(-50%);
   }
+  div.dots {
+    bottom: 20px !important;
+  }
   div.combos {
     flex-direction: column;
   }
