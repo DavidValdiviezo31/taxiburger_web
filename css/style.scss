@@ -522,10 +522,21 @@ footer {
 				}
 			}
 			& ul.footer-bar {
-				flex-direction: row;
 				flex-wrap: wrap;
 				justify-content: space-evenly;
+				& a {
+					font-size: 1.25rem;
+					display: flex;
+					justify-content: center;
+					& svg {
+						bottom: -3px;
+					}
+				}
 			}
+		}
+		p {
+			font-size: 1rem;
+			gap: 10px;
 		}
 	}
 }
