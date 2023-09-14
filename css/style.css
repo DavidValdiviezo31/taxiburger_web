@@ -454,7 +454,7 @@ footer > p a:hover {
     display: flex;
     position: absolute;
     top: 50%;
-    right: 50px;
+    right: 30px;
     transform: translateY(-50%);
   }
   div.dots {
